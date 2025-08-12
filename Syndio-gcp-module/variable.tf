@@ -1,3 +1,4 @@
+#variables set
 variable "project_id" {
   description = "Syndio-test-app project ID"
   type        = string

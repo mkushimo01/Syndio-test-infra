@@ -1,3 +1,4 @@
+#Output that will be printed out.
 output "vpc_name" {
   description = "Name of the created VPC"
   value       = google_compute_network.vpc.name

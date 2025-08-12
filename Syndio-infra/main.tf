@@ -10,7 +10,7 @@ terraform {
 # Remote state backend (GCS)
   # NOTE: Backend arguments cannot use variables.
   backend "gcs" {
-    bucket = "syndio-test-app-bucket"  # <-- create this GCS bucket first (or change name)
+    bucket = "syndio-test-app-bucket"  # <--create this GCS bucket first (or change name)
     prefix = "terraform/state"                  # e.g., "envs/dev", "envs/prod"
   }
 }

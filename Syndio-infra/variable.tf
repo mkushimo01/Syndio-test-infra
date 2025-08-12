@@ -40,7 +40,7 @@ variable "pods_cidr" {
 }
 
 variable "services_range_name" {
-  description = "Name of the secondary range for Services"
+  description = "Name of the secondary range for services"
   type        = string
   default     = "syndio-test-app-services-range"
 }
